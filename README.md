@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React SCSS Bootstrap BoilerPlate
+I have create a simple React Scss Bootstrap ready to use boilerplate. Enjoy!!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## If You Don't want SCSS or Bootstrap use 
+
+### `npm uninstall sass`
+### `npm uninstall bootstrap`
 
 ## Available Scripts
 
