@@ -1,0 +1,12 @@
+.main-wrapper{
+    max-width: 320px;
+    background: $backgroundColor;
+    color: $white;
+    border-radius: 10px;
+    overflow: hidden;
+    filter: grayscale(.9);
+    transition: filter .3s ease-in-out;
+    &:hover{
+       filter: grayscale(0);
+    }
+}

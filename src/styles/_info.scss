@@ -1,0 +1,45 @@
+.info{
+    text-align: center;
+    .img-wrapper{
+        img{
+            object-fit: cover;
+        }
+    }
+    .info-details{
+        padding: 21px 15px;
+        h1{
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 7px;
+        }
+        h4{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 10px;
+            margin-bottom: 15px;
+        }
+        .info-btn{
+            padding: 7px 0;
+            background: $white;
+            width: 125px;
+            border-radius: 6px;
+            color: $grey;
+            text-decoration: none;
+            font-size: 14px;
+            &:hover{
+                opacity: .9;
+            }
+            &:last-child{
+                background: $linkedIn;
+                color: $white;
+            }
+            i{
+                margin-right: 8px;
+            }
+        }
+    }
+}

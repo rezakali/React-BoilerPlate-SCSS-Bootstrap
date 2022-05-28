@@ -1,12 +1,9 @@
-import Header from "./components/Header";
-import Content from "./components/Content";
-
+import Main from "./components/Main";
 function App() {
   return (
-    <>
-      <Header />
-      <Content />
-    </>
+    <div className="appcss">
+      <Main></Main>
+    </div>
   );
 }
 

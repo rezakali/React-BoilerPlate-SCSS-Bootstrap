@@ -1,0 +1,19 @@
+.footerWrapper{
+    height: 64px;
+    gap: 1rem;
+    background: $footerBg;
+    .social-btn{
+        width: 25px;
+        height: 25px;
+        background: $lightGrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $footerBg;
+        text-decoration: none;
+        border-radius: 4px;
+        &:hover{
+            opacity: .9;
+        }
+    }
+}
