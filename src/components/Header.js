@@ -1,5 +1,5 @@
 import logo from "../images/reactjs-icon.png";
-import { Row, Container, Colomn } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Header = () => {
   return (

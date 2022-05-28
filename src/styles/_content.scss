@@ -1,0 +1,25 @@
+.contentWrapper{
+    background: $backgroundColor;
+    min-height: 85vh;
+    padding: 100px 0 0;
+    background: url("../images/reactjs-icon\ 2.png") no-repeat, $backgroundColor;
+    background-size: auto 50%;
+    background-position: center right;
+    color: $white;
+    h1{
+        font-size: 39.06px;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+    ul{
+        li{
+            font-size: 16px;
+            line-height: 19.36px;
+            margin-bottom: 20px;
+            &::marker{
+                color: $reactBlue;
+                font-size: 20px;
+            }
+        } 
+    }
+}
