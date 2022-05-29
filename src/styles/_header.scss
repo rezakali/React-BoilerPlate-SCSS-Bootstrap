@@ -1,14 +1,10 @@
-@import "_colors";
-
-.header-wrapper{
-    background: $dark;
-    color: $white;
-    .logo-wrapper{
-        h3{
-            color: $reactBlue;
-            margin-left: 1rem;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-    }
+.header-wrapper {
+  background: $dark;
+  color: $white;
+  h3 {
+    color: $reactBlue;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
 }
